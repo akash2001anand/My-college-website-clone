@@ -1,0 +1,287 @@
+*{
+margin:0;
+padding:0;
+
+}
+header{
+	background-image:url('bgimg7.jpeg');
+	height:1050px;
+	background-size:cover;
+	//background-position:center;
+}
+#title
+  {
+   height:150px;
+   width:1338px;
+   background-color:white;
+   border:5px solid blue;
+  }
+ #logo1
+  {
+   height:150px;
+   width:180px;
+   float:left;
+   //background-color:red;
+   //border:1px solid blue;
+  }
+ #boardname
+  {
+   height:150px;
+   width:950px;
+   float:left;
+   //background-color:skyblue;
+   //border:1px solid red;
+   //background-image:url('bgimg7.jpeg');
+  }
+  #boardname h1
+  {
+   font-size:50px;
+   color:rgb(45,137,176);
+   font-family:times new roman;
+   text-shadow:1px 5px 5px;
+  } 
+ #logo2
+  {
+   height:150px;
+   width:200px;
+   float:left;
+   //border:1px solid green;
+  }
+#menu{
+	height:50px;
+    width:1345PX;
+    background-color:black;
+    border:1px solid white;
+	margin-top:10px;
+	font-family:century gothic;
+}
+#menu ul{
+	float:left;
+	list-style-type:none;
+	margin-top:15px;
+	
+}
+#menu ul li{
+	display:inline;
+}
+#menu ul li a{
+	text-decoration:none;
+	color:white;
+	padding:5px 20px;
+	border:1px solid transparent;
+	transition:0.7s ease;
+	
+}
+#menu ul li a:hover{
+	background-color:blue;
+	color:yellow;
+}
+.L a
+ {
+  background-color:blue;
+	color:yellow;
+ }
+#menu .search{
+	float:right;
+}
+#menu input{
+	padding:6px;
+	margin-top:8px;
+	border:none;
+	font-size:17px;
+}
+#menu .search button{
+	float:right;
+    padding:6px;
+	margin-top:8px;
+	border:none;
+	font-size:17px;
+	background-color:lightgray;
+	cursor:pointer;
+	transition:0.6s;
+}
+#menu .search button:hover{
+	background-color:blue;
+	color:yellow;
+}
+ #BODY
+  {
+   min-HEIGHT:720px;
+   width:1345PX;
+   border:1px solid white;
+   margin-top:10px;
+   //background-color:navy;
+  }
+  #home1
+  {
+   height:705px;
+   width:654px;
+   float:left;
+   border:3px solid navy;
+   margin:5px 2px 5px 5px;
+   //background-color:white;
+  }
+  #img1
+  {
+   height:350px;
+   width:640px;
+   background-color:lightyellow;
+   margin:10px 7px 7px 7px;   
+  }
+  #img2
+  {
+   height:300px;
+   width:640px;
+   background-color:lightyellow;
+   margin:20px 7px;   
+  }
+  #home2
+  {
+   height:705px;
+   width:654px;
+   float:right;
+   border:3px solid navy;
+   margin:5px 5px 5px 3px;
+   //background-color:rgb(45,137,176);
+  } 
+ #img3
+  {
+   height:350px;
+   width:640px;
+   background-color:lightyellow;
+   margin:10px 7px 7px 7px;   
+  }
+  #img4
+  {
+   height:300px;
+   width:640px;
+   background-color:lightyellow;
+   margin:20px 7px;   
+  }  
+  #FORM
+   {
+    HEIGHT:640PX;
+    WIDTH:600PX;
+	margin:0px auto;
+	//BORDER:1PX SOLID WHITE;
+	background-color:rgb(0,0,0,0.6);
+	color:white;
+	MARGIN-TOP:30PX;
+   }
+  #login
+   {
+    height:350px;
+    width:550px;   
+    background-color:rgb(0,0,0,0.4);
+    margin:0px auto; 
+    border:2px solid navy;	
+   }
+  .input
+  {
+   border:3px groove;
+   width:200px;
+   outline:0;
+   padding:5px;
+   border-radius:2px;
+   font-family:calibri;
+  }
+  td
+  {
+   color:white;
+  }
+ table tr td sup 
+   {
+    COLOR:red;
+	//font-size:10px;
+   } 
+  .sub
+   {
+    border:3px groov;
+	width:100px;
+	height:30px;
+	outline:0;
+	padding:5px;
+	border-radius:2px;
+   }
+   .sub:hover
+    {
+	 background-color:rgb(45,137,176);
+	 color:white;
+	 transition:0.6s ease;
+	}
+  #BODY1
+  {
+   min-HEIGHT:720px;
+   width:1345PX;
+   border:1px solid white;
+   margin-top:10px;
+   //background-color:
+   font-family:calibri;
+  }
+  #aboutbody1
+  {
+   height:700px;
+   width:654px;
+   float:left;
+   border:3px solid navy;
+   margin:5px;
+   background-color:white;
+  } 
+  #about1
+  {
+   height:690px;
+   width:588px;
+   float:left;
+   //border:3px solid navy;
+   margin:5px 30px;
+   text-align:justify;
+   font-family:calibri;
+   font-size:25px;
+   color:navy;
+  } 
+ #aboutbody2
+  {
+   height:700px;
+   width:654px;
+   float:right;
+   border:3px solid navy;
+   margin:5px;
+   background-color:white;
+   font-family:calibri;
+   color:navy;
+  }
+  #aboutbody2 SPAN
+  {
+   font-size:18px;	  
+  }  
+ #aboutbody2 table tr td
+  {
+   color:black;
+   font-family:calibri;
+  }  
+ #footer
+  {
+   height:80px;
+   width:1345PX;
+   border:1px solid white;
+   margin-top:5px;
+   background-color:rgb(45,137,176);
+   color:white;
+   font-size:15px;
+   font-family:calibri;
+  }
+ #footer p
+  {
+   margin-top:5px;
+  }
+ #footer p a
+  {
+   text-decoration:none;
+   color:white;
+   margin:0px 10px;
+  }
+ #footer p a:hover
+  {
+   background-color:navy;
+   color:white;
+  } 
